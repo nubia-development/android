@@ -37,6 +37,10 @@
   <!-- Nubia MSM8998 Devices End -->
 
   <!-- Nubia SDM845 Devices Start -->
+  <!-- Nubia Z18/nx606j -->
+  <project path="device/nubia/nx606j" name="android_device_nubia_nx606j" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx606j" name="proprietary_vendor_nubia_nx606j" groups="device" remote="cyborg"/>
+
   <!-- Nubia Magic Mars/nx619j -->
   <project path="device/nubia/nx619j" name="android_device_nubia_nx619j" groups="device" remote="cyborg"/>
   <project path="vendor/nubia/nx619j" name="proprietary_vendor_nubia_nx619j" groups="device" remote="cyborg"/>
