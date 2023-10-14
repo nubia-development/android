@@ -20,10 +20,6 @@
   <project path="device/nubia/nx563j" name="android_device_nubia_nx563j" groups="device" remote="cyborg"/>
   <project path="vendor/nubia/nx563j" name="proprietary_vendor_nubia_nx563j" groups="device" remote="cyborg"/>
 
-  <!-- Nubia Z17S/nx595j -->
-  <project path="device/nubia/nx595j" name="android_device_nubia_nx595j" groups="device" remote="cyborg"/>
-  <project path="vendor/nubia/nx595j" name="proprietary_vendor_nubia_nx595j" groups="device" remote="cyborg"/>
-
   <!-- Nubia Red Magic/nx609j -->
   <project path="device/nubia/nx609j" name="android_device_nubia_nx609j" groups="device" remote="cyborg"/>
   <project path="vendor/nubia/nx609j" name="proprietary_vendor_nubia_nx609j" groups="device" remote="cyborg"/>
@@ -54,12 +50,8 @@
   <!-- Nubia SDM845 Devices End -->
 
   <!-- Nubia SM7250 Devices Start -->
-  <!-- Nubia Play 5G/nx651j -->
+  <!-- Nubia Play 5G/nx651j & Red Magic 5G Lite/nx651j_eea -->
   <project path="device/nubia/nx651j" name="android_device_nubia_nx651j" groups="device" remote="cyborg"/>
-
-  <!-- Red Magic 5G Lite/nx651j_eea -->
-  <project path="device/nubia/nx651j_eea" name="android_device_nubia_nx651j_eea" groups="device" remote="cyborg"/>
-  <project path="vendor/nubia/nx651j_eea" name="proprietary_vendor_nubia_nx651j_eea" groups="device" remote="cyborg"/>
 
   <!-- Nubia SM7250 Common DT&VT -->
   <project path="device/nubia/sm7250-common" name="android_device_nubia_sm7250-common" groups="device" remote="cyborg"/>
