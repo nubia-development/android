@@ -1400,5 +1400,6 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/nubia_lineage.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>

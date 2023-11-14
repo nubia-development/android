@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="cyborg"
+           fetch="https://github.com/nubia-development/"           
+           review="..."
+           revision="lineage-22.0" />
+
+  <!-- Nubia SDM660 Devices Start -->
+  <!-- Nubia Z18 Mini/nx611j -->
+  <project path="device/nubia/nx611j" name="android_device_nubia_nx611j" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx611j" name="proprietary_vendor_nubia_nx611j" groups="device" remote="cyborg"/>
+
+  <!-- Nubia SDM660 Common Kernel -->
+  <project path="kernel/nubia/sdm660" name="android_kernel_nubia_sdm660" remote="cyborg"/>
+  <!-- Nubia SDM660 Devices End -->
+
+  <!-- Nubia MSM8998 Devices Start -->
+  <!-- Nubia Z17/nx563j -->
+  <project path="device/nubia/nx563j" name="android_device_nubia_nx563j" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx563j" name="proprietary_vendor_nubia_nx563j" groups="device" remote="cyborg"/>
+
+  <!-- Nubia Red Magic/nx609j -->
+  <project path="device/nubia/nx609j" name="android_device_nubia_nx609j" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx609j" name="proprietary_vendor_nubia_nx609j" groups="device" remote="cyborg"/>
+
+  <!-- Nubia MSM8998 Common DT&VT -->
+  <project path="device/nubia/msm8998-common" name="android_device_nubia_msm8998-common" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/msm8998-common" name="proprietary_vendor_nubia_msm8998-common" groups="device" remote="cyborg"/>
+
+  <!-- Nubia MSM8998 Common Kernel -->
+  <project path="kernel/nubia/msm8998" name="android_kernel_nubia_msm8998" remote="cyborg"/>
+  <!-- Nubia MSM8998 Devices End -->
+
+  <!-- Nubia SDM845 Devices Start -->
+  <!-- Nubia Z18/nx606j -->
+  <project path="device/nubia/nx606j" name="android_device_nubia_nx606j" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx606j" name="proprietary_vendor_nubia_nx606j" groups="device" remote="cyborg"/>
+
+  <!-- Nubia Magic Mars/nx619j -->
+  <project path="device/nubia/nx619j" name="android_device_nubia_nx619j" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx619j" name="proprietary_vendor_nubia_nx619j" groups="device" remote="cyborg"/>
+
+  <!-- Nubia SDM845 Common DT&VT -->
+  <project path="device/nubia/sdm845-common" name="android_device_nubia_sdm845-common" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/sdm845-common" name="proprietary_vendor_nubia_sdm845-common" groups="device" remote="cyborg"/>
+
+  <!-- Nubia SDM845 Common Kernel -->
+  <project path="kernel/nubia/sdm845" name="android_kernel_nubia_sdm845" remote="cyborg"/>
+  <!-- Nubia SDM845 Devices End -->
+
+</manifest>
