@@ -64,4 +64,7 @@
   <!-- Nubia hardware -->
   <project path="hardware/nubia" name="LineageOS/android_hardware_nubia" remote="github" revision="lineage-21"/>
 
+  <!-- Firmware -->
+  <project path="vendor/firmware" name="proprietary_vendor_firmware" groups="device" remote="cyborg"/>
+
 </manifest>
