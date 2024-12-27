@@ -4,7 +4,7 @@
   <remote  name="cyborg"
            fetch="https://github.com/nubia-development/"           
            review="..."
-           revision="lineage-22.0" />
+           revision="lineage-22.1" />
 
   <!-- Nubia SDM660 Devices Start -->
   <!-- Nubia Z18 Mini/nx611j -->
